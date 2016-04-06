@@ -21,7 +21,6 @@ dguardia/davidguardia-distelli:
     - '*'
 
   PkgExclude:
-    - node_modules/
 
   PreInstall:
     - echo "---Begining PreInstall---"
@@ -35,7 +34,6 @@ dguardia/davidguardia-distelli:
 
   PostInstall:
     - echo "Begin PostInstall"
-    - npm install
 
   Env:
     - PORT: 3000
